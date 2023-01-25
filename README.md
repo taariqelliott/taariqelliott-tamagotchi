@@ -9,11 +9,11 @@ Create a repo for your Tamagotchi pet on github.com NOT on github enterprise.
 
 Make a commit after you finish each of the following
 
-Create an Object or Class (look at your notes on JS Classes if you forgot) for your Tamagotchi
+-- Create an Object or Class (look at your notes on JS Classes if you forgot) for your Tamagotchi
 
-Instantiate your Tamagotchi (If you created a class)
+-- Instantiate your Tamagotchi (If you created a class)
 
-Display a character of your choice on the screen to represent your pet
+-- Display a character of your choice on the screen to represent your pet
 
 Display the following metrics for your pet:
 

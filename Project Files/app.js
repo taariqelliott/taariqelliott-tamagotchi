@@ -1,8 +1,6 @@
 
 
 
-// Instantiate your Tamagotchi (If you created a class)
-// Display a character of your choice on the screen to represent your pet
 
 class Tamagotchi {
     constructor(name,hunger,sleep){
