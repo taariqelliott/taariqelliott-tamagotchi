@@ -1,0 +1,2 @@
+# tamagotchi-project
+Class project!
