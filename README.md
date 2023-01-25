@@ -17,10 +17,10 @@ Make a commit after you finish each of the following
 
 Display the following metrics for your pet:
 
-Hunger (1-10 scale)
-Sleepiness (1-10 scale)
-Boredom (1-10 scale)
-Age
+-- Hunger (1-10 scale)
+-- Sleepiness (1-10 scale)
+-- Boredom (1-10 scale)
+-- Age
 Add buttons to the screen to feed your pet, turn off the lights, and play with your pet.
 
 Add the ability to name your pet.

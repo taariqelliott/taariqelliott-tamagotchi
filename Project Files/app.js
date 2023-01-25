@@ -8,6 +8,7 @@ class Tamagotchi {
         this.hunger = 100;
         this.sleepiness = 100;
         this.boredom = 100;
+        this.age = 0;
     }
 }
 
