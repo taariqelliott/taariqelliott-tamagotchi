@@ -1,94 +1,98 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <script src="./app.js" defer></script>
     <title>Tamagotchi T</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="stat-box">
-        <div class="char-span">
-            <img src="./gif folder/1.gif" id="riq-gif" alt="">
-            <div class="petName">
-                <h3>Type in a name below</h3>
-                <h2 id="nameEntry">What do we call you?</h2>
-                <label>Your name: </label>
-  <input type="text" id="nameBox">
-  <input id="submit-button" name="submit-button" type="submit" value="Submit" onclick="displayName()"/>
-  
-                
-            </div>
+      <div class="char-span">
+        <div id="moveme">
+          <img src="./gif folder/1.gif" id="riq-gif" alt="" />
         </div>
+        <div class="petName">
+          <h3>Type in a name below</h3>
+          <h2 id="nameEntry">What do we call you?</h2>
+          <label>Your name: </label>
+          <input type="text" id="nameBox" />
+          <input
+            id="submit-button"
+            name="submit-button"
+            type="submit"
+            value="Submit"
+            onclick="displayName()"
+          />
+        </div>
+      </div>
     </div>
 
     <div class="four-boxes">
-        <div id="hunger-box" class="move-us" id="box1">
-            <div class="hunger-box-container" >
-                <div>
-                    <h3>Hunger</h3>
-                </div>
-                <div id="hunger-number-container">
-                    <h2 id="hungerNum">
-                        
-                    </h2>
-                </div>
-                <div>
-                    <button id="hunger-button">I'm Hungry!</button>
-                </div>
-            </div>
+      <div id="hunger-box" class="move-us" id="box1">
+        <div class="hunger-box-container">
+          <div>
+            <h3>Hunger</h3>
+          </div>
+          <div id="hunger-number-container">
+            <h2 id="hungerNum"></h2>
+          </div>
+          <div>
+            <button id="hunger-button" class="btncolor">I'm Hungry!</button>
+          </div>
         </div>
-        <div id="boredom-box" class="move-us" id="box2">
-            <div class="boredom-box-container">
-                <div>
-                    <h3>Boredom</h3>
-                </div>
-                <div id="boredom-number-container">
-                    <h2 id="boredomNum">
-                        
-                    </h2>
-                </div>
-                <div>
-                    <button id="boredom-button">I'm Bored!</button>
-                </div>
-            </div>
+      </div>
+      <div id="boredom-box" class="move-us" id="box2">
+        <div class="boredom-box-container">
+          <div>
+            <h3>Boredom</h3>
+          </div>
+          <div id="boredom-number-container">
+            <h2 id="boredomNum"></h2>
+          </div>
+          <div>
+            <button id="boredom-button" class="btncolor">I'm Bored!</button>
+          </div>
         </div>
-        <div id="sleep-box" class="move-us" id="box3">
-            <div class="sleep-box-container">
-                <div>
-                    <h3>Sleep</h3>
-                </div>
-                <div id="sleep-number-container">
-                    <h2 id="sleepNum">
-                        
-                    </h2>
-                </div>
-                <div>
-                    <button id="sleep-button">I'm Tired!</button>
-                </div>
-            </div>
+      </div>
+      <div id="sleep-box" class="move-us" id="box3">
+        <div class="sleep-box-container">
+          <div>
+            <h3>Sleep</h3>
+          </div>
+          <div id="sleep-number-container">
+            <h2 id="sleepNum"></h2>
+          </div>
+          <div>
+            <button id="sleep-button" class="btncolor">I'm Tired!</button>
+          </div>
         </div>
-        <div id="age-box" class="move-us" id="box4">
-            <div class="age-box-container">
-                <div>
-                    <h3>Age</h3>
-                </div>
-                <div id="age-number-container">
-                    <h2 id="age-update">
-                        0
-                    </h2>
-                </div>
-                <div>
-                    <button id="suprise-button">LIGHTS OUT</button>
-                </div>
-            </div>
+      </div>
+      <div id="age-box" class="move-us" id="box4">
+        <div class="age-box-container">
+          <div>
+            <h3>Age</h3>
+          </div>
+          <div id="age-number-container">
+            <h2 id="age-update">
+              <!-- comment out -->
+            </h2>
+          </div>
+          <div>
+            <button id="suprise-button" class="btncolor">LIGHTS OUT</button>
+          </div>
         </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

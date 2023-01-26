@@ -1,48 +1,83 @@
-body{
-    margin: auto;
-    font-family: "Silkscreen";
-    background-color: #5c3e2c;
+
+
+body {
+  margin: auto;
+  font-family: "Silkscreen";
+  background-color: #5c3e2c;
 }
 
-#riq-gif{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    padding-bottom: 50px;
+#riq-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  max-width: 50%;
+  padding-bottom: 50px;
 }
 
-.char-span{
-    border: solid 20px;
-    color: #ff5e00;
+.char-span {
+  border: solid 20px;
+  color: #ff5e00;
 }
 
-.four-boxes{
-    text-align:center;
-    max-width:100%;
-    border: 20px solid #ff5e00;
+.four-boxes {
+  text-align: center;
+  max-width: auto;
+  border: 20px solid #ff5e00;
 }
 
-.move-us{
-    display:inline-block;
-    margin:7px;
-    max-width:100%;
-    width: 40%;
-    border: 4px  #45301f;
-    padding-bottom:2%;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    color: #ff5e00;
+.move-us {
+  display: inline-block;
+  margin: 7px;
+  max-width: 45%;
+  width: 20%;
+  padding-bottom: 2%;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  color: #82b600;
+  outline: 8px solid;
 }
 
-.petName{
-    border: solid 20px #45301f;
-    text-align: center;
-    padding-right: 4%;
-    padding-left: 4%;
-    padding-bottom: 20px;
-    color: tan;
-    
+.petName {
+  border: solid 20px #82b600;
+  text-align: center;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom: 10px;
+  color: tan;
 }
 
+#moveme {
+  position: relative;
+  animation-name: moveme;
+  animation-duration: 50s;
+  max-width: 100%;
+}
 
+@keyframes moveme {
+  0% {
+    left: -25%;
+    top: 30px;
+  }
+  25% {
+    left: 25%;
+    top: -5px;
+  }
+  50% {
+    left: -25%;
+    top: -5px;
+  }
+  75% {
+    left: 25%;
+    top: 30px;
+  }
+  100% {
+    left: -25%;
+    top: 30px;
+  }
+}
+
+.btncolor {
+  background-color: #5c3e2c;
+  color: tan;
+}
