@@ -29,9 +29,9 @@ Display the following metrics for your pet:
 
 -- Increase your pet's age every x minutes
 
-Increase your pet's Hunger, Sleepiness, and Bored metrics on an interval of your choosing.
+-- Increase your pet's Hunger, Sleepiness, and Bored metrics on an interval of your choosing.
 
-You pet should die if Hunger, Boredom, or Sleepiness hits 10.
+-- You pet should die if Hunger, Boredom, or Sleepiness hits 10.
 
 Morph your pet at certain ages.
 

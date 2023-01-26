@@ -36,6 +36,11 @@ class Tamagotchi {
                 alert("My knees are starting to ache and every morning my back bothers me.... I must be getting older")
                 document.getElementById("riq-gif").src="./gif folder/3.gif";
                 
+            } if (this.age >= 150 || this.hunger <= 0 || this.sleepiness <= 0 || this.boredom <= 0) {
+        
+                clearInterval(this.runGame)
+                console.log(this.hunger,this.age,this.boredom,this.sleepiness);
+                console.log("DONE");
             }
             
         
