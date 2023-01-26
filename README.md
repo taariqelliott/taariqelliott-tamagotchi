@@ -21,7 +21,7 @@ Display the following metrics for your pet:
 -- Sleepiness (1-10 scale)
 -- Boredom (1-10 scale)
 -- Age
-Add buttons to the screen to feed your pet, turn off the lights, and play with your pet.
+-- Add buttons to the screen to feed your pet, turn off the lights, and play with your pet.
 
 Add the ability to name your pet.
 
