@@ -23,9 +23,9 @@ Display the following metrics for your pet:
 -- Age
 -- Add buttons to the screen to feed your pet, turn off the lights, and play with your pet.
 
--- Add the ability to name your pet.
+--  Add the ability to name your pet.
 
-Style the page.
+-- Style the page.
 
 Increase your pet's age every x minutes
 
