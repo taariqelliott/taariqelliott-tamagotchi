@@ -27,7 +27,7 @@ Display the following metrics for your pet:
 
 -- Style the page.
 
-Increase your pet's age every x minutes
+-- Increase your pet's age every x minutes
 
 Increase your pet's Hunger, Sleepiness, and Bored metrics on an interval of your choosing.
 
