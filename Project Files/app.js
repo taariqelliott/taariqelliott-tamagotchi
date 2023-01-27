@@ -35,10 +35,10 @@ class Tamagotchi {
       document.getElementById("age-update").innerText = taariq.age;
       if (this.age == 30) {
         alert("You unlocked a new fit!");
-        document.getElementById("riq-gif").src = "./gif folder/2.gif";
+        document.getElementById("riq-gif").src = "./Project Files/gif folder/2.gif";
       } else if (this.age == 66) {
         alert(`Woah...${entry} unlocked another wardrobe change!`);
-        document.getElementById("riq-gif").src = "./gif folder/3.gif";
+        document.getElementById("riq-gif").src = "./Project Files/gif folder/3.gif";
       }
       if (
         this.age >= 100 ||
@@ -49,7 +49,7 @@ class Tamagotchi {
         clearInterval(this.runGame);
         console.log(this.hunger, this.age, this.boredom, this.sleepiness);
         console.log("DONE");
-        document.getElementById("riq-gif").src = "./gif folder/jet.gif";
+        document.getElementById("riq-gif").src = "./Project Files/gif folder/jet.gif";
         document.getElementById(
           "nameEntry"
         ).innerText = `${entry} went to a new server!!`;
