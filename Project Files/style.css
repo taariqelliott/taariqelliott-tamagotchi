@@ -50,7 +50,9 @@ body {
 #moveme {
   position: relative;
   animation-name: moveme;
-  animation-duration: 100s;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
   max-width: 100%;
 }
 
